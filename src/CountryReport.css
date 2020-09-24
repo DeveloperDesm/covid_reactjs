@@ -1,0 +1,11 @@
+.countryReport {
+  display: flex;
+  height: 100vh;
+}
+
+@media all and (max-width: 700px) {
+  .countryReport {
+    display: flex;
+    flex-direction: column;
+  }
+}

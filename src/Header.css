@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  align-items: center;
+}
+.header__left {
+  display: flex;
+  text-align: center;
+}
+.header__left > img {
+  object-fit: contain;
+  height: 50px;
+  cursor: pointer;
+}
+
+.header__left > p {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.header__info {
+  display: flex;
+}
+
+.header__info > h4 {
+  margin-left: 10px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__rightUsername {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
